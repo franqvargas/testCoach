@@ -1,0 +1,9 @@
+en php las variables se pueden imprimir con print o con echo
+al tratar de imprimir array
+
+echo &array['nombre']...
+
+telefono
+email
+domicilio
+
