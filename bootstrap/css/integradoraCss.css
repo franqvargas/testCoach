@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Ruthie);
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src:url('../fonts/codropsicons/codropsicons.eot');
+  src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+    url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+    url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+   
+.adorno{
+ 
+  font-family:'Ubuntu Mono' , monospace;
+  text-align: center;        
+  width:400px; 
+  height: 420px;
+  border: groove 7px;
+  border-width: 0px;
+}
+
+
+.form-control1{
+  padding: 28px;
+  border: solid 2px;
+  border-top: 40px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: black;                
+  font-size: 19px;
+  text-align: center;
+  width: 90%;
+  height: 25px;
+  border-radius: 2px 2px 2px 2px;
+  background-color: rgba(255, 250, 250, 0);
+  font-family:'Fira Mono' , monospace;
+  
+}
+
+.fondos{
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aceptar{
+  width: 130px; 
+  height: 35px;
+  font-family:'Ubuntu Mono' , monospace;    
+  border: 0px;
+  background-color: #50D1BD;
+  font-size: 1.2em;
+  border-radius: 2px 2px 2px 4px;
+  color: black;
+  
+}
+.titulo{
+  font-size: 40px;
+  font-family:'Ubuntu Mono',monospace;
+  text-align: ;
+  color: black;
+  position:inherit;
+  
+}
+#main-header {
+  background: #333;
+  color: white;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  overflow: ;
+}   
+#main-header a {
+  color: white;
+}
+
+/*
+ * Logo
+ */
+ #logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+#logo-header:hover {
+  color: #0b76a6;
+}
+
+#logo-header .site-name {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+
+#main-content {
+  position: inherit;
+ 
+  height: 1200px;
+  max-width: 1000px;
+  margin: 0;
+  box-shadow: 0 0 0px rgba(0,0,0,.4);
+  top: inherit;
+}
+
+#main-content header,
+#main-content .content {
+  padding: 40px;
+}
+/*
+ * Navegación
+ */
+ nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #0b76a6;
+}
+#main-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+  width:  100%;
+}
+#main-footer p {
+  margin: 0;
+}
+
+#main-footer a {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: inherit;
+  color: #666;
+  background: #f2f2f2; 
+  font-size: 1em;
+  line-height: 1.5em;    
+  padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+#flotante
+  {
+    position: absolute;
+    display:none;
+    font-family:Arial;
+    font-size:0.8em;
+    width:280px;
+    border:1px solid #808080;
+    background-color:#f1f1f1;
+    padding:5px;
+  }
+  div#questionsContainer, #titleDesc{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  }
+  #content{
+    position: static;
+  }
+  * html body{
+    overflow: hidden;
+  }
